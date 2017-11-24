@@ -75,6 +75,7 @@
             this.lbxFace.Name = "lbxFace";
             this.lbxFace.Size = new System.Drawing.Size(572, 604);
             this.lbxFace.TabIndex = 14;
+            this.lbxFace.SelectedIndexChanged += new System.EventHandler(this.lbxFace_SelectedIndexChanged);
             // 
             // lblFilePath
             // 

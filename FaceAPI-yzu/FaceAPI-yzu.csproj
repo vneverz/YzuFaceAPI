@@ -36,6 +36,9 @@
     <Reference Include="Microsoft.ProjectOxford.Common, Version=1.0.324.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ProjectOxford.Common.1.0.324\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ProjectOxford.Emotion, Version=1.0.336.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ProjectOxford.Emotion.1.0.336\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Emotion.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ProjectOxford.Face, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ProjectOxford.Face.1.3.0\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Microsoft.ProjectOxford.Face.dll</HintPath>
     </Reference>
@@ -84,6 +87,12 @@
     <Compile Include="Forms\frmDetect.Designer.cs">
       <DependentUpon>frmDetect.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmEmotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEmotion.Designer.cs">
+      <DependentUpon>frmEmotion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmFaces.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmDetect.resx">
       <DependentUpon>frmDetect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEmotion.resx">
+      <DependentUpon>frmEmotion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmFaces.resx">
       <DependentUpon>frmFaces.cs</DependentUpon>

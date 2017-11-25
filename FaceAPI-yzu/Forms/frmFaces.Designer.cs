@@ -46,10 +46,9 @@
             this.picFace.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.picFace.Location = new System.Drawing.Point(742, 77);
-            this.picFace.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.picFace.Location = new System.Drawing.Point(342, 38);
             this.picFace.Name = "picFace";
-            this.picFace.Size = new System.Drawing.Size(609, 610);
+            this.picFace.Size = new System.Drawing.Size(264, 305);
             this.picFace.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picFace.TabIndex = 16;
             this.picFace.TabStop = false;
@@ -57,10 +56,9 @@
             // lblFace
             // 
             this.lblFace.AutoSize = true;
-            this.lblFace.Location = new System.Drawing.Point(25, 77);
-            this.lblFace.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.lblFace.Location = new System.Drawing.Point(12, 38);
             this.lblFace.Name = "lblFace";
-            this.lblFace.Size = new System.Drawing.Size(106, 24);
+            this.lblFace.Size = new System.Drawing.Size(53, 12);
             this.lblFace.TabIndex = 15;
             this.lblFace.Text = "照片列表";
             // 
@@ -69,21 +67,19 @@
             this.lbxFace.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lbxFace.FormattingEnabled = true;
-            this.lbxFace.ItemHeight = 24;
-            this.lbxFace.Location = new System.Drawing.Point(153, 77);
-            this.lbxFace.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.lbxFace.ItemHeight = 12;
+            this.lbxFace.Location = new System.Drawing.Point(71, 38);
             this.lbxFace.Name = "lbxFace";
-            this.lbxFace.Size = new System.Drawing.Size(572, 604);
+            this.lbxFace.Size = new System.Drawing.Size(266, 304);
             this.lbxFace.TabIndex = 14;
             this.lbxFace.SelectedIndexChanged += new System.EventHandler(this.lbxFace_SelectedIndexChanged);
             // 
             // lblFilePath
             // 
             this.lblFilePath.AutoSize = true;
-            this.lblFilePath.Location = new System.Drawing.Point(25, 31);
-            this.lblFilePath.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.lblFilePath.Location = new System.Drawing.Point(12, 16);
             this.lblFilePath.Name = "lblFilePath";
-            this.lblFilePath.Size = new System.Drawing.Size(106, 24);
+            this.lblFilePath.Size = new System.Drawing.Size(53, 12);
             this.lblFilePath.TabIndex = 13;
             this.lblFilePath.Text = "上傳照片";
             // 
@@ -91,10 +87,9 @@
             // 
             this.btnDeleteFace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDeleteFace.Enabled = false;
-            this.btnDeleteFace.Location = new System.Drawing.Point(1358, 641);
-            this.btnDeleteFace.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnDeleteFace.Location = new System.Drawing.Point(612, 319);
             this.btnDeleteFace.Name = "btnDeleteFace";
-            this.btnDeleteFace.Size = new System.Drawing.Size(163, 46);
+            this.btnDeleteFace.Size = new System.Drawing.Size(75, 23);
             this.btnDeleteFace.TabIndex = 12;
             this.btnDeleteFace.Text = "Delete";
             this.btnDeleteFace.UseVisualStyleBackColor = true;
@@ -103,10 +98,9 @@
             // btnAddFace
             // 
             this.btnAddFace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddFace.Location = new System.Drawing.Point(1358, 21);
-            this.btnAddFace.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnAddFace.Location = new System.Drawing.Point(625, 8);
             this.btnAddFace.Name = "btnAddFace";
-            this.btnAddFace.Size = new System.Drawing.Size(163, 46);
+            this.btnAddFace.Size = new System.Drawing.Size(75, 23);
             this.btnAddFace.TabIndex = 11;
             this.btnAddFace.Text = "Add";
             this.btnAddFace.UseVisualStyleBackColor = true;
@@ -116,10 +110,9 @@
             // 
             this.btnOpenFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOpenFile.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenFile.Image")));
-            this.btnOpenFile.Location = new System.Drawing.Point(1286, 21);
-            this.btnOpenFile.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnOpenFile.Location = new System.Drawing.Point(589, 8);
             this.btnOpenFile.Name = "btnOpenFile";
-            this.btnOpenFile.Size = new System.Drawing.Size(65, 46);
+            this.btnOpenFile.Size = new System.Drawing.Size(30, 23);
             this.btnOpenFile.TabIndex = 10;
             this.btnOpenFile.UseVisualStyleBackColor = true;
             this.btnOpenFile.Click += new System.EventHandler(this.btnOpenFile_Click);
@@ -128,11 +121,10 @@
             // 
             this.txtPerson.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPerson.Location = new System.Drawing.Point(153, 21);
-            this.txtPerson.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.txtPerson.Location = new System.Drawing.Point(71, 10);
             this.txtPerson.Name = "txtPerson";
             this.txtPerson.ReadOnly = true;
-            this.txtPerson.Size = new System.Drawing.Size(1116, 36);
+            this.txtPerson.Size = new System.Drawing.Size(512, 22);
             this.txtPerson.TabIndex = 9;
             // 
             // fileDialog
@@ -141,9 +133,9 @@
             // 
             // frmFaces
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1547, 708);
+            this.ClientSize = new System.Drawing.Size(699, 354);
             this.Controls.Add(this.picFace);
             this.Controls.Add(this.lblFace);
             this.Controls.Add(this.lbxFace);
@@ -152,6 +144,7 @@
             this.Controls.Add(this.btnAddFace);
             this.Controls.Add(this.btnOpenFile);
             this.Controls.Add(this.txtPerson);
+            this.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.Name = "frmFaces";
             this.Text = "frmFaces";
             this.Load += new System.EventHandler(this.frmFaces_Load);

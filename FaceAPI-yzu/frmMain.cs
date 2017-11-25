@@ -30,6 +30,7 @@ namespace FaceAPI_yzu
         private void captureToolStripMenuItem_Click(object sender, EventArgs e) => OpenForm(new Forms.frmCapture());
 
         private void camToolStripMenuItem_Click(object sender, EventArgs e) => OpenForm(new Forms.frmCam());
+        private void emotionToolStripMenuItem_Click(object sender, EventArgs e) => OpenForm(new Forms.frmEmotion());
 
         private void OpenForm(Form objFrm)
         {

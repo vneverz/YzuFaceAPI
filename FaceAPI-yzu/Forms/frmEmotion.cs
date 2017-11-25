@@ -1,4 +1,4 @@
-﻿using Microsoft.ProjectOxford.Face;
+﻿using Microsoft.ProjectOxford.Emotion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,8 +11,6 @@ using System.Windows.Forms;
 
 namespace FaceAPI_yzu.Forms
 {
-    FaceServiceClient face = new FaceServiceClient(ConfigurationManager.AppSettings["FaceAPIKey"].ToString(), ConfigurationManager.AppSettings["FaceAPIRootUrl"].ToString());
-    ClassLibrary.FacePanelUtility objPlUtil = new ClassLibrary.FacePanelUtility();
 
     public partial class frmEmotion : Form
     {
